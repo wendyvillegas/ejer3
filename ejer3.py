@@ -19,12 +19,14 @@ opcion = int(input("Ingrese la opcion:   "))
 
 
 if opcion == 1:
-    radio=int(input("Ingrese el radio:  "))
+    radio=float(input("Ingrese el radio:  "))
     total= circulo(radio)
+    print("EL AREA ES: "+ str(circulo(radio)))
 
 if opcion==2:
-    lado=int(input("Ingrese el lado:  "))
+    lado=float(input("Ingrese el lado:  "))
     total=cuadrado(lado)
+    print("EL AREA ES: " + str(cuadrado(lado)))
 
 if opcion == 3:
     altura = float (input("Ingrese la ALTURA del triangulo: "))
