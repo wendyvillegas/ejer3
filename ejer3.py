@@ -35,4 +35,4 @@ if opcion == 3:
     
     
     
-print("TE AMO DURAN <3")
+
