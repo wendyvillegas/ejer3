@@ -8,6 +8,14 @@ def circulo(radio):
     area=(radio*radio)*3.1415
     return area
 
+def cuadrado(lado):
+    area=(lado*lado)
+    return area
+
 if opcion==1:
     radio=int(input(print("Ingrese el radio")))
     total= circulo(radio)
+
+if opcion==2:
+    lado=int(input(print("Ingrese el lado ")))
+    total=cuadrado(lado)
