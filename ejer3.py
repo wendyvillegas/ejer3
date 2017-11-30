@@ -34,7 +34,7 @@ if opcion == 3:
     triangulo(altura, base)
     print("EL AREA ES: " + str(triangulo(altura, base)))
     
-    
+print("EDITADO")    
     
     
 
